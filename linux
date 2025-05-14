@@ -1,0 +1,7 @@
+storage increase
+Increase the Storage in ec2 instance by modifying the voulme
+check the disk space using df -h
+lslbk
+After increasing the volume in ec2 instance execute the following command
+sudo apt install cloud-guest-utils
+sudo growpart /dev/xvda 1
