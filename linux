@@ -5,3 +5,9 @@ lslbk
 After increasing the volume in ec2 instance execute the following command
 sudo apt install cloud-guest-utils
 sudo growpart /dev/xvda 1
+after the above command then updated to new storage
+lslbk
+df -h
+sudo resize2fs /dev/xvda1
+then root folder updated the storage
+df -h
